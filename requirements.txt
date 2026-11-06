@@ -2,7 +2,7 @@
 # The torch/torchvision pins need the PyTorch index:
 #   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu128
 --extra-index-url https://download.pytorch.org/whl/cu128
-torch==2.7.0+cu128
+torch==2.13.0
 torchvision==0.22.0+cu128
 torcheval==0.0.7
 numpy==2.4.4
