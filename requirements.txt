@@ -1,9 +1,7 @@
-# Exact versions of the environment the paper's runs used (CUDA 12.8 wheels).
-# The torch/torchvision pins need the PyTorch index:
-#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu128
---extra-index-url https://download.pytorch.org/whl/cu128
+# Maintained dependency environment; historical paper versions are in Git history.
+# Torch and torchvision must be upgraded as a compatible pair.
 torch==2.13.0
-torchvision==0.22.0+cu128
+torchvision==0.28.0
 torcheval==0.0.7
 numpy==2.4.4
 scipy==1.17.1
